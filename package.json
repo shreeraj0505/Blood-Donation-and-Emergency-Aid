@@ -1,0 +1,33 @@
+{
+  "name": "blood-donation-project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seedTestDonors.js",
+    "seed-users": "node seedLoginUsers.js",
+    "create-users": "node createUsers.js"
+  },
+  "keywords": [
+    "blood-donation",
+    "emergency",
+    "gps",
+    "healthcare"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "nodemailer": "^7.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "description": "Blood Donation Management System with Emergency Blood Request feature, GPS-based donor matching, and real-time location services"
+}
